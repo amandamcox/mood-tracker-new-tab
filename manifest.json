@@ -1,0 +1,12 @@
+{
+    "name": "Moody - New Tab Mood Tracker",
+    "version": "1.0",
+    "description": "Be reminded to track your daily moods every time you open a new tab!",
+    "chrome_url_overrides" : {
+      "newtab": "tracker.html"
+    },
+    "permissions": [
+      "storage"
+    ],
+    "manifest_version": 2
+  }
